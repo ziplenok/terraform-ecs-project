@@ -1,12 +1,8 @@
 # Terraform with AWS ECS
 
-## Overview
-
-Provide a brief overview of your project.
-
 ## Infrastructure Diagram
 
-![Infrastructure Diagram](diagram/AWSRentZoneApp.drawio.png)
+![Infrastructure Diagram](./diagram/AWSRentZoneApp.drawio.png)
 
 ## Terraform Variables
 
@@ -18,7 +14,7 @@ region=""
 project_name=""
 environment=""
 
-# VPC variables 
+# VPC variables
 vpc_cidr=""
 public_subnet_az1_cidr=""
 public_subnet_az2_cidr=""
@@ -50,3 +46,20 @@ container_image = ""
 
 # Route 53 variables
 record_name = ""
+
+```
+
+## Variables for RDS(MySQL)
+
+```
+PERSONAL_ACCESS_TOKEN=
+GITHUB_USERNAME=
+REPOSITORY NAME=
+WEB_FILE_ZIP=rentzone.zip
+WEB_FILE_UNZIP=rentzone
+DOMAIN NAME=
+RDS_ENDPOINT=
+RDS_OB_NAME=
+RDS_MASTER_USERNAME=
+RDS_OB_PASSWORD=
+```

@@ -4,6 +4,10 @@
 
 ![Infrastructure Diagram](./diagram/AWSRentZoneApp.drawio.png)
 
+## Rentzone source code
+
+https://drive.google.com/drive/folders/1-T8tZn7tIYZ6sisFuoihjTlQTvh1iVQP?usp=sharing
+
 ## Terraform Variables
 
 Make sure to fill in the values for each variable in your `terraform.tfvars` file.
